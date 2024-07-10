@@ -1,0 +1,53 @@
+
+  .notification-container {
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 15s ease-in-out;
+}
+
+  .notification-container.visible {
+    opacity: 1;
+  }
+  
+  .notification-container.hidden {
+    display: none;
+  }
+  
+  .notification-content {
+    overflow: hidden;
+  }
+  
+  .notification-text {
+    margin-right: 10px; 
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .close-button {
+    background-color: #e53e3e;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* @keyframes marquee {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(180%);
+    }
+  }
+   */
+
+   @keyframes marquee {
+    0% {
+      transform: translateX(180%);
+    }
+    100% {
+      transform: translateX(-180%);
+    }
+  }
+  

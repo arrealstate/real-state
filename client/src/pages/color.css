@@ -1,0 +1,100 @@
+  /* CSS */
+  .ARcolors-100 {
+    color: #8c6b3d;
+  }
+  
+  .ARcolors-200 {
+    color: #f2dda6;
+  }
+  
+  .ARcolors-300 {
+    color: #d9b678;
+  }
+  
+  .ARcolors-400 {
+    color: #baa779;
+  }
+  
+  .ARcolors-500 {
+    color: #493e2c;
+  }
+  
+  .ARcolors-600 {
+    color: #a38f6f;
+  }
+  
+  .ARcolors-700 {
+    color: #bdb59a;
+  }
+  
+  .ARcolors-800 {
+    color: #c4c491;
+  }
+  
+  .ARcolors-900 {
+    color: #643c1c;
+  }
+
+  .ARcolors-950 {
+    color: #643c1c98;
+  }
+
+  /* CSS */
+.bg-ARcolors-100 {
+  background-color: #8c6b3d;
+}
+
+.bg-ARcolors-200 {
+  background-color: #f2dda6;
+}
+
+.bg-ARcolors-300 {
+  background-color: #d9b678;
+}
+
+.bg-ARcolors-400 {
+  background-color: #baa779;
+}
+
+.bg-ARcolors-500 {
+  background-color: #493e2c;
+}
+
+.bg-ARcolors-600 {
+  background-color: #a38f6f;
+}
+
+.bg-ARcolors-700 {
+  background-color: #bdb59a;
+}
+
+.bg-ARcolors-800 {
+  background-color: #c4c491;
+}
+
+.bg-ARcolors-900 {
+  background-color: #643c1c;
+}
+
+
+
+/* .bg {
+  /* content: ""; */
+  /* display: block; /
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #1b5663;
+  background: -webkit-linear-gradient(top, #1b5663, #616162);
+  background: -o-linear-gradient(top, #1b5663 , #616162);
+  background: -moz-linear-gradient(top, #1b5663,#616162);
+  background: linear-gradient(top, #1b5663, #616162);
+  opacity: 0.8;
+} */
+
+.gradient-background {
+  background: linear-gradient(to bottom, #a38f6f, #643c1c);
+}
