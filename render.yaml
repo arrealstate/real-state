@@ -2,7 +2,7 @@ services:
   - type: web
     name: mern-estate
     env: node
-    buildCommand: 'npm run clean && npm run build'
+    buildCommand: 'npm run backend-install && npm run frontend-install && npm run frontend-build'
     startCommand: 'node api/index.js'
     envVars:
       - key: NODE_ENV
