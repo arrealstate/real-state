@@ -3,7 +3,7 @@ services:
     name: mern-estate
     env: node
     buildCommand: 'npm run clean && npm run build'
-    startCommand: 'npm start'
+    startCommand: 'node api/index.js'
     envVars:
       - key: NODE_ENV
         value: production
