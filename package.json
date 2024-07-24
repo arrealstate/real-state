@@ -1,19 +1,19 @@
 {
   "name": "mern-estate",
-  "version": "2.0.0",
-  "description": " ` build: npm install && npm install --prefix client && npm run build --prefix client`",
+  "version": "1.0.0",
+  "description": "Build and deploy MERN stack application",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon api/index.js",
     "start": "node api/index.js",
-    "deploy": "npm run build --prefix client && firebase deploy",
+    "deploy": "npm run frontend-build && firebase deploy",
     "backend-install": "npm install",
     "frontend-install": "npm install --prefix client",
     "backend-build": "webpack --config webpack.config.js",
     "frontend-build": "npm run build --prefix client",
-    "build": "npm install && npm install --prefix client && npm run build --prefix client",
-    "clean": "rm -rf node_modules && rm -rf client/node_modules && rm -rf dist && npm cache clean --force"
+    "build": "npm run backend-install && npm run frontend-install && npm run frontend-build",
+    "clean": "rm -rf node_modules client/node_modules dist && npm cache clean --force"
   },
   "keywords": [],
   "author": "",
