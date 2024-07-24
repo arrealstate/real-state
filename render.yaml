@@ -1,0 +1,15 @@
+# render.yaml
+
+services:
+  - type: web
+    name: mern-estate
+    env: node
+    buildCommand: 'npm install && npm install --prefix client && npm run build --prefix client'
+    startCommand: 'npm start'
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: MONGO_URI
+        value: mongodb+srv://arrealstate:AlaaAR103103@cluster0.c5srt8j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
