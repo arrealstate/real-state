@@ -33,7 +33,7 @@ app.use(cookieParser());
 const connectToDatabase = async () => {
   try {
     await mongoose.connect(
-      'mongodb+srv://arrealstate:AlaaAR103103@cluster0.c5srt8j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+      'mongodb+srv://arrealstate93:Ar103103$@cluster0.dic9t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
