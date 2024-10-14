@@ -95,15 +95,7 @@ export default function Header() {
             </li>
           </Link>
 
-          <li className="hidden sm:inline text-slate-700 hover:underline">
-            <a
-              href="https://ardoc.onrender.com/#top"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Help guide
-            </a>
-          </li>
+          
 
           <Link to="/profile">
             {currentUser ? (
