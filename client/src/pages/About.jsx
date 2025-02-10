@@ -14,7 +14,7 @@ export default function About() {
           <div className='bg-white bg-opacity-70 p-8 rounded-lg'>
             <div className='flex items-center mb-4'>
               <img
-                src='https://res.cloudinary.com/dh1lgpmm4/image/upload/v1694983534/AlaaProjects/ARREALSTATE/Logo_vmlkrd.png'
+                src='https://res.cloudinary.com/dusfhr8a4/image/upload/f_auto,q_auto/um3c2nygafj21nxg381s'
                 alt='A.R Estate Logo'
                 className='mr-4 w-12 h-12'
               />
