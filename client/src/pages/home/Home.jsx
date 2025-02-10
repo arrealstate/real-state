@@ -69,7 +69,7 @@ const Home = () => {
   const backgroundImageUrl =
     "https://res.cloudinary.com/dh1lgpmm4/image/upload/v1697814256/AlaaProjects/ARREALSTATE/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_8_1_gova2j.png";
   const videoUrlMp4 =
-    "https://res.cloudinary.com/dusfhr8a4/video/upload/v1739213198/di1od0mdkwzdbnqffzro.mp4;
+    "https://res.cloudinary.com/dusfhr8a4/video/upload/v1739213198/di1od0mdkwzdbnqffzro.mp4";
   const videoUrlWebm =
     "https://res.cloudinary.com/dusfhr8a4/video/upload/v1739213198/di1od0mdkwzdbnqffzro.mp4";
 
