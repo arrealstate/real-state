@@ -295,7 +295,7 @@ export default function SearchProperties() {
         </form>
         <div className="mt-6 items-center justify-center hidden sm:block">
           {" "}
-          <img src="https://res.cloudinary.com/dh1lgpmm4/image/upload/v1694983534/AlaaProjects/ARREALSTATE/Logo_vmlkrd.png" />
+          <img src="https://res.cloudinary.com/dusfhr8a4/image/upload/f_auto,q_auto/um3c2nygafj21nxg381s" />
         </div>
       </div>
       <div className="flex-1">
